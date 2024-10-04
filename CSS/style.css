@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(75, 150, 125);
+}
+/* .container{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    border: 2px;
+    border-style: solid;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 150px;
+    border-color: rgb(91, 241, 84);
+    box-sizing: border-box;
+}
+.innerclass{
+    background-color: rgb(101, 199, 108);
+    padding-left: 40px;
+    padding: 30%;
+} */
+div>p{
+    background-color: rgb(5, 160, 28);
+}
+#divid p{
+    background-color: yellow;
+}
+.div1 p{
+    background-color: red;
+}
