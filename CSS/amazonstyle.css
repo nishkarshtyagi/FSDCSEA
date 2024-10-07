@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0f1111;
+}
+.home,.add,.search,.lang,.signin,.cart,.return{
+    border: solid 1px white;
+    width: 60px;
+    margin: 2px;
+    color: white;
+}
+.home{
+    background: url("../images/logo-amazon.svg");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 120px;
+    color: white;
+}
+.add{
+    width: 180px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search{
+    width: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    width: 800px;
+    height: 40px;
+}
+.lang{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
+  color: white;
+
+}
+.signin{
+    height: 40px;
+    width: 120px;
+    margin-left: 8px;
+    color: white;
+
+}
+.return{
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cart{
+    background: url("../images/images.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    color: white;
+
+
+}

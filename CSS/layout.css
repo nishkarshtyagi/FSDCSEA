@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(97, 144, 97)
+}
+.container{
+    height: 500px;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: brown;
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-content:center;
+}
+.child1,.child2,.child3,.child4{
+    height: 300px;
+    width: 300px;
+    /* margin: 25px; */
+    border: 1px solid rgb(155, 10, 34);
+    border-width: 2px;
+    
+    
+}
+.child1{
+    background-color: coral;
+    flex-basis: 50%;
+}
+.child2{
+    background-color:cornflowerblue;
+}.child3{
+    background-color:cornsilk;
+}.child4{
+    background-color:crimson;
+}

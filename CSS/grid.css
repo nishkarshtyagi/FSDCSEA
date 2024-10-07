@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 400px auto;
+    height: 400px;
+    border: 2px solid black;
+}
+.row1{
+    background-color: aqua;
+}
+.row2{
+    background-color: rgb(163, 45, 45);
+}
+.row3{
+    background-color: cornflowerblue;
+}
