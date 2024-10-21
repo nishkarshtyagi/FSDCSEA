@@ -1,0 +1,34 @@
+body{
+    background-color: red;
+}
+.bulb {
+    width: 150px;
+    height: 240px;
+    border-radius: 4px;
+    margin: 10px;
+    display: inline-block;
+    background-image: url(/FSDCSEA/images/fuse.png); /* Off bulb image */
+    background-size: cover;
+  }
+  .bulb.on {
+    background-image: url(/FSDCSEA/images/lightup.png); /* On bulb image */
+  }
+  .container {
+    margin-top: 20px;
+  }
+
+#numBulbs{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#button{
+    height: 35px;
+    width: 80px;
+}
+
+.c2{
+    display: flex;
+    justify-content: center;
+}
